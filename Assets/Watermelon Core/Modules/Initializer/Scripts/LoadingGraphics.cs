@@ -12,7 +12,7 @@ namespace Watermelon
         [SerializeField] Camera loadingCamera;
 
         private void Awake()
-        {
+        {Debug.Log("LoadingGraphics:"+transform.gameObject.name);
             DontDestroyOnLoad(gameObject);
 
             canvasScaler.MatchSize();

@@ -121,7 +121,7 @@ namespace Watermelon
                 BaseSaveWrapper.ActiveWrapper.Save(globalSave, SAVE_FILE_NAME);
             }
 
-            Debug.Log("[Save Controller]: Game is saved!");
+            Debug.Log("[Save Controller]: Game is saved! level:"+globalSave);
 
             isSaveRequired = false;
         }

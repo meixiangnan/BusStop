@@ -139,7 +139,7 @@ namespace Watermelon
             if (string.IsNullOrEmpty(persistentDataPath))
             {
                 persistentDataPath = Application.persistentDataPath;
-
+                Debug.Log("mei:"+persistentDataPath);
                 return persistentDataPath;
             }
 

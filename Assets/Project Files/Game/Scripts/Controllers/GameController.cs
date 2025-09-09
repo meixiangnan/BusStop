@@ -137,6 +137,8 @@ namespace Watermelon
 
             AudioController.PlaySound(AudioController.AudioClips.completeSound);
 
+            TapTapLeaderboardProject._instance.SubmitScores(levelSave.RealLevelNumber+1);     
+            
             SaveController.Save();
         }
 

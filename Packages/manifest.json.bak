@@ -50,7 +50,8 @@
     "com.unity.modules.xr": "1.0.0",
     "com.google.external-dependency-manager": "1.2.179",
     "com.taptap.sdk.core":"4.8.1",
-    "com.taptap.sdk.login":"4.8.1"
+    "com.taptap.sdk.login":"4.8.1",
+    "com.taptap.sdk.leaderboard":"4.8.1",
   },
    "scopedRegistries": [
       {
@@ -59,6 +60,11 @@
          "scopes": [
             "com.google.external-dependency-manager"
          ]
-      }
+      },
+      {
+	    "name": "NPMJS",
+	    "url": "https://registry.npmjs.org/",
+	    "scopes": ["com.taptap"]
+	  }
   ]
 }

@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 1759571055492703226}
   - component: {fileID: 1759571055492703224}
   - component: {fileID: 5691749199857487535}
+  - component: {fileID: 1356870670276689834}
   m_Layer: 5
   m_HasEditorInfo: 1
   m_Name: UI Login
@@ -168,7 +169,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a0102ecc3fb3dc4b83b5c3251aa97b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  taptapLoginProject: {fileID: 1356870670276689834}
   loginButton: {fileID: 2810277767943195165}
+--- !u!114 &1356870670276689834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759571055492703221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf067d36dc05755479b81f29ebd200dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2391178956759436572
 GameObject:
   m_ObjectHideFlags: 0

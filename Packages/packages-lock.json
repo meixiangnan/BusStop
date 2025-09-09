@@ -16,6 +16,16 @@
       },
       "url": "https://registry.npmjs.org"
     },
+    "com.taptap.sdk.leaderboard": {
+      "version": "4.8.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.taptap.sdk.core": "4.8.1",
+        "com.taptap.sdk.login": "4.8.1"
+      },
+      "url": "https://registry.npmjs.org"
+    },
     "com.taptap.sdk.login": {
       "version": "4.8.1",
       "depth": 0,

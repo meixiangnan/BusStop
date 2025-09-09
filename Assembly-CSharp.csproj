@@ -135,6 +135,7 @@
     <Compile Include="Assets\Watermelon Core\Modules\UI\Scripts\Components\UIFadeAnimation.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\Settings\UISettings.cs" />
     <Compile Include="Assets\Watermelon Core\Scripts\Floating Text\FloatingTextCase.cs" />
+    <Compile Include="Assets\Watermelon Core\Modules\Initializer\Scripts\TapTapLoginProject.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Monetization\Scripts\Advertisement\AdsSettings.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\Power Ups\PUType.cs" />
     <Compile Include="Assets\Watermelon Core\Scripts\Floating Text\FloatingTextController.cs" />
@@ -163,6 +164,7 @@
     <Compile Include="Assets\Watermelon Core\Scripts\Scene Saving Handler\ISceneSavingCallback.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\UI\Scripts\FloatingCloud.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Tween\Scripts\Cases\RectTransformTweenCases.cs" />
+    <Compile Include="Assets\Watermelon Core\Modules\Initializer\Scripts\TapTapLeaderboardProject.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\UI\Scripts\Overlay\DummyOverlayPanel.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Haptic\Scripts\Wrapper\IOSHapticWrapper.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Skins\SkinPickerAttribute.cs" />
@@ -215,6 +217,7 @@
     <Compile Include="Assets\Watermelon Core\Modules\Initializer\Scripts\RegisterModuleAttribute.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\Power Ups\PUPrice.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Initializer\Scripts\SystemMessage.cs" />
+    <Compile Include="Assets\Watermelon Core\Modules\Initializer\Scripts\LeaderboardCallback.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\UI\UIGame.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\UI\UIComplete.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Monetization\Scripts\Advertisement\DebugGeography.cs" />
@@ -334,6 +337,7 @@
     <Compile Include="Assets\Project Files\Game\Scripts\Level\Behaviors\BaseCharacterBehavior.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Audio\Scripts\AudioCase.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\Skin Store\UI\UISkinStore.cs" />
+    <Compile Include="Assets\Project Files\Game\Scripts\Settings\RankShowPanelButton.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Audio\Scripts\AudioInitModule.cs" />
     <Compile Include="Assets\Watermelon Core\Scripts\Cached Components\CachedCapsuleCollider.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Tween\Scripts\TweenCaseCollection.cs" />
@@ -356,6 +360,7 @@
     <Compile Include="Assets\Project Files\Game\Scripts\Settings\Buttons\SettingsRestoreButton.cs" />
     <Compile Include="Assets\Watermelon Core\Scripts\Scene Picker\Scripts\SceneObject.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Skins\SkinReward.cs" />
+    <Compile Include="Assets\Project Files\Game\Scripts\Settings\SubbmitScorePanelButton.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Monetization\Scripts\Advertisement\Providers\LevelPlay\LevelPlayHandler.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Tween\Scripts\Cases\AudioTweenCases.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Pool\Scripts\PoolManager.cs" />
@@ -368,6 +373,7 @@
     <Compile Include="Assets\Project Files\Game\Scripts\Skin Store\SkinStoreProductData.cs" />
     <Compile Include="Assets\Project Files\Game\Scripts\Power Ups\Data\PUShuffleSettings.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Pool\Scripts\PoolExtensions.cs" />
+    <Compile Include="Assets\Watermelon Core\Modules\Initializer\Scripts\TapTapInitProject.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Monetization\Scripts\Purchasing\ProductData.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Monetization\Scripts\Advertisement\Providers\Unity Ads\UnityAdsLegacyContainer.cs" />
     <Compile Include="Assets\Watermelon Core\Modules\Audio\Scripts\MD_AudioClips.cs" />
@@ -1247,6 +1253,9 @@
     <Reference Include="Unity.Mathematics">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="TapSDK.Leaderboard.Mobile.Editor">
+      <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\TapSDK.Leaderboard.Mobile.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
@@ -1258,6 +1267,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="TapSDK.Leaderboard.Runtime">
+      <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\TapSDK.Leaderboard.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>

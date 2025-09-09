@@ -1021,6 +1021,9 @@
     <Reference Include="Unity.Mathematics">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="TapSDK.Leaderboard.Mobile.Editor">
+      <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\TapSDK.Leaderboard.Mobile.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
@@ -1032,6 +1035,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="TapSDK.Leaderboard.Runtime">
+      <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\TapSDK.Leaderboard.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>E:\Project\Unity\BusStop\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
